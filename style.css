@@ -56,6 +56,7 @@ header {
 }
 .banner-text h1 {
   font-size: 4rem;
+  margin-bottom: 15px;
 }
 
 .fresh-flowers {
@@ -64,6 +65,7 @@ header {
 .banner-img img {
   max-width: 550px;
   max-height: 350px;
+  
 }
 /* Responsive for Small Device */
 @media screen and (max-width: 576px) {
@@ -88,11 +90,13 @@ header {
   }
   .banner-text {
     max-width: 100%;
-
+    margin-left: 10px;
     align-self: self-start;
   }
   .banner-text h1 {
     font-size: 3rem;
+    margin-bottom: 5px;
+
   }
 
   .fresh-flowers {
