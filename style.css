@@ -21,6 +21,7 @@
 }
 .font-gray-2 {
   color: rgba(0, 0, 0, 0.5);
+  font-size: 1.25rem;
 }
 .cart-btn {
   background-color: #e95a08;
@@ -35,6 +36,10 @@
 }
 .grid {
   display: grid;
+}
+.font-3rem-bold{
+  font-size: 3rem;
+  font-weight: bold;
 }
 /* Header Style */
 header {
@@ -89,9 +94,7 @@ header {
 .plant-heading {
   max-width: 800px;
 }
-.plant-heading h1 {
-  font-size: 3rem;
-}
+
 .plant-heading p {
   font-size: 1.25rem;
 }
@@ -115,7 +118,41 @@ header {
   margin-top: 15px;
   max-width: 250px;
 }
+/* Plant Lover Section */
+.plant-lover-section{
+  max-width: 1100px;
+  margin: 0px auto;
+  margin-top: 160px;
+}
+  .plant-lover{
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+  }
+  .plant-lover-img img{
+    max-height: 500px;
+    max-width: 500px;
+  }
+  .plant-lover-info{
+      max-height: 500px;
+    max-width: 500px;
+  }
+  .plant-lover-info h1{
+    margin-bottom: 20px;
+  }
+  .plant-lover-info ul li{
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+ .trusted-seller img{
+  max-width:  280px;
+  max-height: 280px;
+  position: relative;
+  top: -625px;
+    left: 300px;
 
+ }
+ 
 /* Responsive for Small Device */
 @media screen and (max-width: 576px) {
     body{
@@ -123,8 +160,9 @@ header {
     }
   header,
   .plant-section,
-  .plant-heading {
-    max-width: 100vw;
+  .plant-heading ,
+  .plant-lover-section {
+    max-width: calc(100vw - 40px);
     margin: 20px auto;
   }
   .nav {
@@ -158,6 +196,7 @@ header {
   .banner-img img {
     max-width: 100%;
   }
+  
   /* responsiveness for plant section */
 
   .plant-card {
@@ -181,4 +220,23 @@ header {
   color: #ffffff;
 
 }
+/* Plant lover section responsive */
+
+  .plant-lover{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .plant-lover-img img{
+    max-height: 400px;
+    max-width: 400px;
+  }
+  .plant-lover-info{
+      max-height: 400px;
+    max-width: 400px;
+  }
+  
+ .trusted-seller img{
+ display: none;
+
+ }
 }
