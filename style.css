@@ -22,7 +22,20 @@
 .font-gray-2 {
   color: rgba(0, 0, 0, 0.5);
 }
-
+.cart-btn{
+    background-color:#E95A08;
+    width: 250px;
+    height: 50px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin-top: 15px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.grid{
+    display: grid;
+}
 /* Header Style */
 header {
   max-width: 1100px;
@@ -59,7 +72,7 @@ header {
   margin-bottom: 15px;
 }
 
-.fresh-flowers {
+.fresh-flowers, .our {
   color: #e95a08;
 }
 .banner-img img {
@@ -67,6 +80,44 @@ header {
   max-height: 350px;
   
 }
+/* Plant section style */
+.plant-section{
+    max-width: 1100px;
+    margin: 70px auto;
+    text-align: center;
+}
+.plant-heading {
+    max-width: 800px;
+}
+.plant-heading h1{
+    font-size: 3rem;
+}
+.plant-heading p{
+    font-size: 1.25rem;
+}
+.plant-card{
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 20px;     
+}
+.card{
+    margin-top:45px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.card h3{
+    color: #111111;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.card img{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    max-width: 250px;
+    
+}
+
+
 /* Responsive for Small Device */
 @media screen and (max-width: 576px) {
   header {
