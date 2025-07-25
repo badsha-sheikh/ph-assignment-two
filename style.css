@@ -504,8 +504,7 @@ padding-bottom: 50px;
 /* JoinSection */
 .join-section{
   width: 100vw;
-  
-  overflow: hidden;
+   overflow: hidden;
 }
 .join-section-info{
   background-image: url(Images/news-letter-bg.png);
