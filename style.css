@@ -153,7 +153,16 @@ header {
   position: absolute;
       top: 1820px;
     left: 430px;
+    animation: trusted-seller 4s linear 0s infinite normal ;
 } 
+@keyframes trusted-seller {
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
  /* Latest deal section */
  .latest-deal-section{
