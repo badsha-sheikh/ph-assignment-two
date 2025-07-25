@@ -325,6 +325,9 @@ padding-bottom: 50px;
   text-decoration: none;
   color: #6B7280;
 }
+.footer-text{
+  padding:20px 0px;
+}
 /* Responsive for Small Device */
 @media screen and (max-width: 576px) {
   header,
@@ -552,6 +555,9 @@ footer{
 .footer-features{
   flex-direction: column;
   
+}
+.footer-items ul li , .footer-items-2 ul li {
+  margin-top: 20px;
 }
 
 
