@@ -281,16 +281,52 @@ border: none;
   align-items: center;
   justify-content: center;
 }
+/* Style for footer section */
+footer{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.footer-features{
+  justify-content: space-evenly;
+  
+}
+.footer-logo{
+  max-width: 300px;
+  font-size: 1.25rem;
+}
+.footer-logo img{
+  max-width: 130px;
+  max-height: 80px;
+}
+.footer-social-icon{
+ gap: 20px;
+ height: 35px;
+ align-items: center;
+
+
+}
+.fb-icon, .linkedin-icon, .x-icon, .youtube-icon{
+  text-align: center;
+}
+.footer-items ul li , .footer-items-2 ul li {
+  list-style: none;
+  padding-bottom:30px ;
+}
+.footer-items ul li a , .footer-items-2 ul li a {
+  text-decoration: none;
+  color: #6B7280;
+}
 /* Responsive for Small Device */
 @media screen and (max-width: 576px) {
     body {
   padding: 0 20px;
 }
+
   header,
   .plant-section,
   .plant-heading ,
-  .plant-lover-section ,
-  .latest-deal-section{
+  .plant-lover-section
+  ,.latest-deal-section{
     max-width: 100%;
     margin: 20px auto;
   }
@@ -374,6 +410,7 @@ border: none;
 
  }
  /* Latest card responsiveness */
+ 
 
   .latest-deal-heading{
    
@@ -468,6 +505,13 @@ border: none;
   color:#e95a08;
 }
 /* JoinSection */
+.join-section{
+  width: 100vw;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
 .join-section-info{
   background-image: url(Images/news-letter-bg.png);
   width: 100%;
@@ -497,6 +541,15 @@ height: 25px;
 width: 90px;
 
 }
+/* Footer Section Responsive */
+
+.footer-features{
+  flex-direction: column;
+  
+}
+
+
+
 
 }
 
